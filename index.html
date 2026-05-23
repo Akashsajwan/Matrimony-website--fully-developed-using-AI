@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shubhh Rishtey | Find your Right Match here</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=20260515-complete-profile" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Shubhh Rishtey home">
+        <img class="brand-logo" src="assets/shubhh-rishtey-logo.png" alt="Shubhh Rishtey" />
+        <span class="brand-name">Shubhh Rishtey</span>
+      </a>
+      <nav class="top-actions" aria-label="Primary">
+        <a href="#login" data-auth-link>Login</a>
+        <a class="pill-link" href="#register" data-register-link>Register</a>
+        <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </header>
+
+    <aside class="side-menu" id="sideMenu" aria-label="Site menu">
+      <div class="side-menu-head">
+        <strong>Menu</strong>
+        <button id="closeMenu" aria-label="Close menu">x</button>
+      </div>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#login">Log-in</a>
+      <a href="#membership">Membership</a>
+      <a href="#register">Register</a>
+      <a href="#search">Search</a>
+      <a href="#profiles">Available Profiles</a>
+      <a href="#success-stories">Success Stories</a>
+      <a href="#safety">Safety Center</a>
+      <a href="#wedding-services">Wedding Services</a>
+      <a href="#horoscope">Horoscope Match</a>
+      <a href="#help">Help</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+      <a href="#dashboard" data-private-link>Dashboard</a>
+    </aside>
+    <div class="menu-scrim" id="menuScrim"></div>
+
+    <main id="app"></main>
+
+    <footer class="site-footer">
+      <section class="footer-trust">
+        <p class="eyebrow">Why Choose Us</p>
+        <h2>A trusted home for meaningful matches</h2>
+        <div class="footer-reasons">
+          <article><h3>Verified Profiles</h3><p>Every profile is carefully screened to support genuine marriage conversations.</p></article>
+          <article><h3>Privacy First</h3><p>Your details stay protected, and you control when contact information is shared.</p></article>
+          <article><h3>Intelligent Matching</h3><p>Find people aligned by community, values, lifestyle, and family expectations.</p></article>
+          <article><h3>Real Stories</h3><p>Families across India use Shubhh Rishtey to begin respectful, lasting relationships.</p></article>
+        </div>
+      </section>
+      <section class="footer-stats">
+        <article><strong>8,542+</strong><span>Couples Paired</span></article>
+        <article><strong>25,430+</strong><span>Registered Members</span></article>
+        <article><strong>13,430+</strong><span>Women</span></article>
+        <article><strong>12,000+</strong><span>Men</span></article>
+      </section>
+      <section class="footer-links">
+        <div class="footer-brand">
+          <h3><span aria-hidden="true">❤</span> Shubhh Rishtey</h3>
+          <p>India's trusted wedding portal connecting hearts, families, and traditions since 2018.</p>
+        </div>
+        <nav aria-label="Explore">
+          <h4>Explore</h4>
+          <a href="#about">About Us</a>
+          <a href="#membership">Membership</a>
+          <a href="#profiles">Browse Profiles</a>
+          <a href="#success-stories">Success Stories</a>
+        </nav>
+        <nav aria-label="Support">
+          <h4>Support</h4>
+          <a href="#contact">Contact Us</a>
+          <a href="#help">Help Centre</a>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms</a>
+        </nav>
+        <div class="footer-contact">
+          <h4>Reach Us</h4>
+          <p data-footer-phone>Phone: +91 98765 43210</p>
+          <p data-footer-email>Email: care@shubbhrishtey.com</p>
+          <p data-footer-country>Country: India</p>
+        </div>
+      </section>
+      <section class="footer-legal">
+        <span>© 2026 Shubhh Rishtey. All rights reserve</span>
+        <span>made with love of india</span>
+      </section>
+    </footer>
+
+    <template id="homeTemplate">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-slide hero-slide-one"></div>
+          <div class="hero-slide hero-slide-two"></div>
+          <div class="hero-slide hero-slide-three"></div>
+        </div>
+        <div class="hero-content">
+          <p class="trust-chip">Verified matrimonial community</p>
+          <h1>Find your Right Match here</h1>
+          <p class="hero-sub">Find genuine, verified profiles and start your journey toward a happy marriage</p>
+          <p class="hero-mini">Most trusted metromonly website</p>
+          <form class="hero-search" data-route-form="search">
+            <input type="search" placeholder="start now" aria-label="Start now" />
+            <button type="submit">Get Started</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section split-section marriage-intro">
+        <div class="image-panel image-panel-diya" role="img" aria-label="Mehndi hands holding wedding diyas"></div>
+        <div>
+          <p class="eyebrow">About Shubhh Rishtey</p>
+          <h2>Honouring tradition. <em>Embracing modern love.</em></h2>
+          <p>Inspired by India's most trusted matrimonial platforms, Shubhh Rishtey is built on transparency, verification, and respect. Whether you seek a partner who shares your values, community, or dreams, our intelligent matching connects you with people who matter.</p>
+          <div class="feature-list wedding-feature-list">
+            <span>Manual ID verification</span>
+            <span>Privacy-controlled photos</span>
+            <span>Family-friendly chats</span>
+            <span>Astro & horoscope match</span>
+            <span>Daily handpicked matches</span>
+            <span>Multilingual support</span>
+          </div>
+          <a class="primary-btn intro-btn" href="#register">Begin your journey</a>
+        </div>
+      </section>
+
+      <section class="journey-band">
+        <div class="section journey-inner">
+          <div>
+            <p class="eyebrow">How Shubhh Rishtey Works</p>
+            <h2>A clear journey from profile to proposal</h2>
+          </div>
+          <div class="journey-steps">
+            <article><span>01</span><h3>Create Profile</h3><p>Add personal, family, career, and preference details.</p></article>
+            <article><span>02</span><h3>Discover Matches</h3><p>Search verified members by city, community, profession, and intent.</p></article>
+            <article><span>03</span><h3>Send Interest</h3><p>Shortlist profiles and exchange respectful requests.</p></article>
+            <article><span>04</span><h3>Start Conversation</h3><p>Use secure messaging before sharing contact details.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="eyebrow">Available now</p>
+          <h2>Featured Profiles</h2>
+          <a href="#profiles">View all</a>
+        </div>
+        <div class="profile-grid" data-featured-profiles></div>
+      </section>
+
+      <section class="section stats-band">
+        <article><strong>2.8M</strong><span>Monthly profile views</span></article>
+        <article><strong>96%</strong><span>Verified contact data</span></article>
+        <article><strong>24/7</strong><span>Support and safety checks</span></article>
+        <article><strong>18+</strong><span>Communities covered</span></article>
+      </section>
+
+      <section class="section match-showcase">
+        <div class="showcase-copy">
+          <p class="eyebrow">Premium Discovery</p>
+          <h2>Matches that feel personal, not random</h2>
+          <p>Shubhh Rishtey highlights serious members, compatible family expectations, and practical details that matter before marriage conversations begin.</p>
+          <div class="mini-metrics">
+            <span><strong>86%</strong> profile strength average</span>
+            <span><strong>7 min</strong> average first reply</span>
+            <span><strong>3x</strong> more visibility on Gold</span>
+          </div>
+        </div>
+        <div class="floating-match-stack" aria-hidden="true">
+          <article><strong>Aaradhya</strong><span>Doctor, Delhi</span></article>
+          <article><strong>Rohan</strong><span>Manager, Mumbai</span></article>
+          <article><strong>Meera</strong><span>CA, Chennai</span></article>
+        </div>
+      </section>
+
+      <section class="section stories-section">
+        <div class="section-head">
+          <p class="eyebrow">Happy Beginnings</p>
+          <h2>Stories from Shubhh Rishtey couples</h2>
+          <a href="#success-stories">Read more</a>
+        </div>
+        <div class="story-grid">
+          <article><div class="story-photo story-one"></div><h3>Riya & Kunal</h3><p>Connected through shared family values and a thoughtful first conversation.</p></article>
+          <article><div class="story-photo story-two"></div><h3>Mehak & Arpit</h3><p>Found each other after shortlisting compatible profiles from Jaipur.</p></article>
+          <article><div class="story-photo story-three"></div><h3>Sneha & Varun</h3><p>Started with a simple interest request and built a lasting bond.</p></article>
+        </div>
+      </section>
+
+      <section class="section trust-section">
+        <p class="eyebrow">Trust and Care</p>
+        <h2>Built for safe, family-friendly matchmaking</h2>
+        <div class="trust-grid">
+          <article><h3>Verified Signals</h3><p>Profiles can carry verification markers and visible intent details.</p></article>
+          <article><h3>Private Messaging</h3><p>Members can talk before sharing sensitive personal information.</p></article>
+          <article><h3>Admin Review</h3><p>Admin panels track users, contacts, requests, and profile activity.</p></article>
+          <article><h3>Plan Controls</h3><p>Free, Silver, and Gold plans clearly separate access and benefits.</p></article>
+        </div>
+      </section>
+
+      <section class="home-cta">
+        <div>
+          <p class="eyebrow">Begin Today</p>
+          <h2>Your right match may already be waiting</h2>
+          <p>Create your Shubhh Rishtey profile, explore verified members, and begin your marriage journey with confidence.</p>
+        </div>
+        <a class="primary-btn" href="#register">Register Now</a>
+      </section>
+    </template>
+
+    <template id="authTemplate">
+      <section class="auth-wrap">
+        <div class="auth-art"></div>
+        <form class="auth-card" id="loginForm">
+          <p class="eyebrow">Welcome back</p>
+          <h1>Log in to Shubhh Rishtey</h1>
+          <label>Email<input type="email" name="email" required placeholder="your@email.com" /></label>
+          <label>Password<input type="password" name="password" required placeholder="Enter password" /></label>
+          <button type="submit">Login</button>
+          <p class="small"><a href="#forgot-password">Forgot password?</a></p>
+          <p class="small">New here? <a href="#register">Create your profile</a></p>
+        </form>
+      </section>
+    </template>
+
+    <template id="registerTemplate">
+      <section class="form-page">
+        <form class="wide-form" id="registerForm">
+          <p class="eyebrow">Create account</p>
+          <h1>Register Your Matrimonial Profile</h1>
+          <div class="form-grid">
+            <label>Full Name<input name="name" required placeholder="Your name" /></label>
+            <label>Email<input type="email" name="email" required placeholder="your@email.com" /></label>
+            <label>Password<input type="password" name="password" required minlength="4" placeholder="Create password" /></label>
+            <label>Age<input type="number" name="age" min="18" required placeholder="26" /></label>
+            <label>Gender<select name="gender"><option>Woman</option><option>Man</option></select></label>
+            <label>City<input name="city" required placeholder="Delhi" /></label>
+            <label>Profession<input name="profession" required placeholder="Software Engineer" /></label>
+            <label>Religion<input name="religion" placeholder="Hindu" /></label>
+            <label>Community<input name="community" placeholder="Brahmin" /></label>
+          </div>
+          <label>About You<textarea name="about" placeholder="Write a short introduction"></textarea></label>
+          <button type="submit">Create Profile</button>
+        </form>
+      </section>
+    </template>
+
+    <template id="membershipTemplate">
+      <section class="section page-hero small-hero">
+        <p class="eyebrow">Membership</p>
+        <h1>Choose a plan for better matches</h1>
+        <p>Free members can browse, search, and receive interest. Paid members unlock direct chat, priority visibility, and family contact details.</p>
+      </section>
+      <section class="section pricing-grid" data-plans></section>
+    </template>
+
+    <template id="dashboardTemplate">
+      <section class="dashboard-shell">
+        <aside class="dashboard-nav">
+          <strong data-user-name>My Account</strong>
+          <a href="#dashboard" data-dash-link="overview">Overview</a>
+          <a href="#dashboard/requests" data-dash-link="requests">Requests</a>
+          <a href="#dashboard/shortlist" data-dash-link="shortlist">Shortlist</a>
+          <a href="#dashboard/profile" data-dash-link="profile">Profile</a>
+          <a href="#dashboard/messages" data-dash-link="messages">Messages</a>
+          <a href="#dashboard/search" data-dash-link="search">Search</a>
+          <a href="#dashboard/settings" data-dash-link="settings">Settings</a>
+          <a href="#membership">Plan</a>
+          <button data-logout>Logout</button>
+        </aside>
+        <section class="dashboard-main" id="dashboardMain"></section>
+      </section>
+    </template>
+
+    <template id="adminTemplate">
+      <section class="dashboard-shell admin-shell">
+        <aside class="dashboard-nav">
+          <strong>Admin Panel</strong>
+          <a href="#admin">Overview</a>
+          <a href="#admin/users">Users</a>
+          <a href="#admin/profiles">Profiles</a>
+          <a href="#admin/requests">Requests</a>
+          <a href="#admin/contacts">Contacts</a>
+          <a href="#admin/admins">Admins</a>
+          <a href="#admin/settings">Site Settings</a>
+          <a href="#admin/password">Change Password</a>
+          <a href="#admin/reports">Reports</a>
+          <button data-logout>Logout</button>
+        </aside>
+        <section class="dashboard-main">
+          <p class="eyebrow">Live site details</p>
+          <h1>Shubhh Rishtey Administration</h1>
+          <div class="stats-band admin-stats">
+            <article><strong>42,180</strong><span>Current Users</span></article>
+            <article><strong>1,284</strong><span>Daily Viewers</span></article>
+            <article><strong>11,406</strong><span>Paired Couples</span></article>
+            <article><strong>683</strong><span>New This Week</span></article>
+          </div>
+          <div class="admin-grid">
+            <article><h3>Recent registrations</h3><div data-admin-users></div></article>
+            <article><h3>Plan revenue</h3><p class="big-number">Rs 8.4L</p><p>Estimated monthly paid plan activity.</p></article>
+            <article><h3>Moderation</h3><p>14 profiles awaiting document verification. 3 reports require review.</p></article>
+          </div>
+        </section>
+      </section>
+    </template>
+  </body>
+  <script src="script.js?v=20260515-complete-profile"></script>
+</html>

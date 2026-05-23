@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Akash Admin",
+      "email": "akash241511@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "plan": "Gold",
+      "canDeleteAdmins": true,
+      "createdAt": "2026-05-15T08:00:45.143Z"
+    },
+    {
+      "id": 2,
+      "name": "Dynamic Demo User",
+      "email": "demo1778832045197@subhrishte.test",
+      "password": "1234",
+      "role": "member",
+      "plan": "Silver",
+      "profileId": 9,
+      "createdAt": "2026-05-15T08:00:45.201Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Aaradhya Sharma",
+      "email": "aaradhya@example.com",
+      "age": 26,
+      "gender": "Woman",
+      "city": "Delhi",
+      "job": "Doctor",
+      "religion": "Hindu",
+      "community": "Brahmin",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80",
+      "about": "Warm, family-oriented, and loves classical music.",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Rohan Mehta",
+      "email": "rohan@example.com",
+      "age": 29,
+      "gender": "Man",
+      "city": "Mumbai",
+      "job": "Product Manager",
+      "religion": "Hindu",
+      "community": "Gujarati",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
+      "about": "Calm, ambitious, and looking for a thoughtful life partner.",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Naina Verma",
+      "email": "naina@example.com",
+      "age": 25,
+      "gender": "Woman",
+      "city": "Jaipur",
+      "job": "Architect",
+      "religion": "Hindu",
+      "community": "Rajput",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80",
+      "about": "Creative, respectful, and close to family values.",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "name": "Arjun Kapoor",
+      "email": "arjun@example.com",
+      "age": 31,
+      "gender": "Man",
+      "city": "Bengaluru",
+      "job": "Software Engineer",
+      "religion": "Hindu",
+      "community": "Punjabi",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80",
+      "about": "Tech professional who enjoys travel and meaningful conversations.",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "name": "Meera Iyer",
+      "email": "meera@example.com",
+      "age": 27,
+      "gender": "Woman",
+      "city": "Chennai",
+      "job": "CA",
+      "religion": "Hindu",
+      "community": "Tamil",
+      "image": "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&w=900&q=80",
+      "about": "Balanced, practical, and searching for a respectful match.",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "Kabir Sinha",
+      "email": "kabir@example.com",
+      "age": 30,
+      "gender": "Man",
+      "city": "Kolkata",
+      "job": "Entrepreneur",
+      "religion": "Hindu",
+      "community": "Kayastha",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80",
+      "about": "Business minded, optimistic, and family-first.",
+      "verified": true
+    },
+    {
+      "id": 7,
+      "name": "Ananya Rao",
+      "email": "ananya@example.com",
+      "age": 24,
+      "gender": "Woman",
+      "city": "Pune",
+      "job": "Designer",
+      "religion": "Hindu",
+      "community": "Marathi",
+      "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=80",
+      "about": "Gentle, artistic, and values honesty above all.",
+      "verified": true
+    },
+    {
+      "id": 8,
+      "name": "Vivaan Joshi",
+      "email": "vivaan@example.com",
+      "age": 28,
+      "gender": "Man",
+      "city": "Ahmedabad",
+      "job": "Civil Engineer",
+      "religion": "Hindu",
+      "community": "Gujarati",
+      "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=80",
+      "about": "Grounded, sincere, and ready for marriage.",
+      "verified": true
+    },
+    {
+      "id": 9,
+      "name": "Dynamic Demo User",
+      "email": "demo1778832045197@subhrishte.test",
+      "age": 27,
+      "gender": "Woman",
+      "city": "Lucknow",
+      "job": "Teacher",
+      "religion": "Hindu",
+      "community": "Kayastha",
+      "about": "Testing the dynamic site.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80",
+      "verified": false
+    }
+  ],
+  "plans": [
+    {
+      "name": "Free",
+      "price": "Rs 0",
+      "note": "Current plan",
+      "features": [
+        "Browse profiles",
+        "Send 2 interests daily",
+        "Basic search",
+        "Limited message preview"
+      ],
+      "restricted": true
+    },
+    {
+      "name": "Silver",
+      "price": "Rs 149/month",
+      "note": "For active search",
+      "features": [
+        "Send 25 interests daily",
+        "Direct chat unlock",
+        "See phone requests",
+        "Priority profile listing"
+      ]
+    },
+    {
+      "name": "Gold",
+      "price": "Rs 349/month",
+      "note": "Rs 3000/year option",
+      "features": [
+        "Unlimited interests",
+        "Unlimited messages",
+        "Verified badge highlight",
+        "Family contact access",
+        "Relationship manager support"
+      ],
+      "featured": true
+    }
+  ],
+  "sessions": {
+    "f262978cd964e686f801f0eaddfa8385b194a02e3bc3a427": 2,
+    "db054d7baf882ecc1c5d5c0b9ec5adb6d69f03816539313f": 1
+  },
+  "interests": [
+    {
+      "id": 1,
+      "fromUserId": 2,
+      "toProfileId": 1,
+      "status": "accepted",
+      "createdAt": "2026-05-15T08:00:45.207Z",
+      "updatedAt": "2026-05-15T08:00:45.233Z"
+    }
+  ],
+  "shortlists": [
+    {
+      "id": 1,
+      "userId": 2,
+      "profileId": 2,
+      "createdAt": "2026-05-15T08:00:45.210Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Smoke Visitor",
+      "email": "visitor@example.com",
+      "message": "Testing contact form.",
+      "status": "new",
+      "createdAt": "2026-05-15T08:00:45.219Z"
+    }
+  ],
+  "notifications": [],
+  "messages": {
+    "2:1": [
+      {
+        "from": "match",
+        "text": "Namaste, I am Aaradhya Sharma. Thank you for viewing my profile.",
+        "createdAt": "2026-05-15T08:00:45.213Z"
+      },
+      {
+        "from": "me",
+        "text": "Hello, nice to meet you.",
+        "createdAt": "2026-05-15T08:00:45.213Z"
+      },
+      {
+        "from": "match",
+        "text": "Thanks for your message. I will discuss with my family and reply soon.",
+        "createdAt": "2026-05-15T08:00:45.213Z"
+      }
+    ]
+  },
+  "settings": {
+    "siteName": "Shubhh Rishtey",
+    "heroHeading": "Find your Right Match here",
+    "heroSubheading": "Find genuine, verified profiles and start your journey toward a happy marriage",
+    "heroTrust": "Most trusted matrimonial website",
+    "phone": "+91 98765 43210",
+    "email": "care@shubbhrishtey.com",
+    "country": "India"
+  },
+  "views": 1285,
+  "paired": 11406
+}

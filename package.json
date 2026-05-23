@@ -1,0 +1,11 @@
+{
+  "name": "subhrishte-dynamic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dynamic matrimonial website with a Node API and JSON database.",
+  "scripts": {
+    "start": "node server.js",
+    "reset-db": "node reset-db.js",
+    "test": "node smoke-test.js"
+  }
+}
